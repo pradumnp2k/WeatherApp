@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #bbf7f0;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+  
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+}
+
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.box {
+    background: rgba(5, 0, 0, 0.6);
+    color: white;
+    padding: 2rem;
+    border-radius: 5%;
+    width: 60%;
+    max-width: 80%;
+    margin: 1em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.btn {
+    margin: 0.5em;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    height: 40px;
+    width: 120px;
+    outline: none;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(67, 65, 65);
+    color: white;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+.btn:hover {
+    background-color: blue;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    width: calc(100% - 24px);
+
+    border-radius: 10px 0 0 10px;
+    background: #ebe3e32b;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+}
+
+h2.city {
+    letter-spacing: 2px;
+}
+
+h1.temp {
+    margin: 5%;
+}
+
+.description,
+.humidity,
+.wind {
+    letter-spacing: 1px;
+    margin: 10px auto;
+}
+
+.flex {
+    display: inline-flex;
+    align-items: center;
+    margin: 15px auto 0;
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+.weather {
+    display: none;
+}
+
+.weather-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    color: red;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+#time {
+    color: white;
+}
+
+.footer a img {
+    border-radius: 50%;
+}
