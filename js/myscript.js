@@ -10,7 +10,7 @@ document.querySelector(".search-bar").addEventListener("keypress", function (eve
 
 function weather() {
   const cityName = document.querySelector(".search-bar").value
-  const apiKey = "904cd41bc4abf725a280f61d653b1eba"
+  const apiKey = "8bc891d4edf502d80f3ce51da8a8dad1"
   const unit = "metric"
   const url = "https://api.openweathermap.org/data/2.5/weather?q="+ cityName +"&appid="+ apiKey +"&units="+ unit
   weatherData(cityName, url)
